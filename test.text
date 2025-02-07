@@ -1,0 +1,132 @@
+#Catégorie Aventure
+-- Réponses pour la catégorie Aventure
+-- Question 1
+INSERT INTO Reponse (Intitule, BonneReponse) VALUES ('Professeur Calculus', FALSE);
+INSERT INTO Reponse (Intitule, BonneReponse) VALUES ('Professeur Tournesol', FALSE);
+INSERT INTO Reponse (Intitule, BonneReponse) VALUES ('Docteur Müller', TRUE);
+
+-- Question 2
+INSERT INTO Reponse (Intitule, BonneReponse) VALUES ('Il est formé par des maîtres élémentaires dans chaque nation.', TRUE);
+INSERT INTO Reponse (Intitule, BonneReponse) VALUES ('Il découvre les éléments à travers des visions mystiques.', FALSE);
+INSERT INTO Reponse (Intitule, BonneReponse) VALUES ('Il apprend par l\'intermédiaire de son esprit, sans enseignement direct.', FALSE);
+
+-- Question 3
+INSERT INTO Reponse (Intitule, BonneReponse) VALUES ('Les cultures scandinaves et romaines', FALSE);
+INSERT INTO Reponse (Intitule, BonneReponse) VALUES ('Les cultures chinoise, japonaise et inuit', TRUE);
+INSERT INTO Reponse (Intitule, BonneReponse) VALUES ('Les cultures africaines et européennes', FALSE);
+
+-- Question 4
+INSERT INTO Reponse (Intitule, BonneReponse) VALUES ('Ils sont les ennemis principaux du héros.', TRUE);
+INSERT INTO Reponse (Intitule, BonneReponse) VALUES ('Ils sont les alliés du héros dans sa quête.', FALSE);
+INSERT INTO Reponse (Intitule, BonneReponse) VALUES ('Ils sont une faction de pirates qui cherchent à contrôler l\'océan.', FALSE);
+
+-- Question 5
+INSERT INTO Reponse (Intitule, BonneReponse) VALUES ('Les pyramides égyptiennes cachent la clé des Cités d\'Or.', TRUE);
+INSERT INTO Reponse (Intitule, BonneReponse) VALUES ('Le héros est un pharaon réincarné.', FALSE);
+INSERT INTO Reponse (Intitule, BonneReponse) VALUES ('Les personnages doivent explorer les pyramides pour trouver les cités légendaires.', FALSE);
+
+-- Question 6
+INSERT INTO Reponse (Intitule, BonneReponse) VALUES ('Kivu', FALSE);
+INSERT INTO Reponse (Intitule, BonneReponse) VALUES ('San Theodoros', TRUE);
+INSERT INTO Reponse (Intitule, BonneReponse) VALUES ('Lutecia', FALSE);
+
+-- Question 7
+INSERT INTO Reponse (Intitule, BonneReponse) VALUES ('Comme des énigmes religieuses', FALSE);
+INSERT INTO Reponse (Intitule, BonneReponse) VALUES ('Comme un héritage technologique à déchiffrer', FALSE);
+INSERT INTO Reponse (Intitule, BonneReponse) VALUES ('Comme des mythes à comprendre pour retrouver la cité d\'Or', TRUE);
+
+-- Question 8
+INSERT INTO Reponse (Intitule, BonneReponse) VALUES ('Mendoza, qui cherche à gouverner les Incas', TRUE);
+INSERT INTO Reponse (Intitule, BonneReponse) VALUES ('Esteban, qui veut libérer les Incas de l\'oppression', FALSE);
+INSERT INTO Reponse (Intitule, BonneReponse) VALUES ('Zia, qui veut empêcher les autres de découvrir la cité d\'Or', FALSE);
+
+-- Question 9
+INSERT INTO Reponse (Intitule, BonneReponse) VALUES ('C\'est une planète dévastée par des guerres anciennes.', FALSE);
+INSERT INTO Reponse (Intitule, BonneReponse) VALUES ('C\'est un lieu mystique où Ulysse découvre son pouvoir.', TRUE);
+INSERT INTO Reponse (Intitule, BonneReponse) VALUES ('C\'est un paradis où Ulysse retrouve sa famille.', FALSE);
+
+-- Question 10
+INSERT INTO Reponse (Intitule, BonneReponse) VALUES ('Les légendes arthuriennes', FALSE);
+INSERT INTO Reponse (Intitule, BonneReponse) VALUES ('Les récits égyptiens et grecs', TRUE);
+INSERT INTO Reponse (Intitule, BonneReponse) VALUES ('Les mythes nordiques', FALSE);
+
+
+#categorie Comédie
+-- Réponses pour la catégorie Comédie
+-- Question 1
+INSERT INTO Reponse (Intitule, BonneReponse) VALUES ('En ridiculisant les personnalités politiques et leurs actions', TRUE);
+INSERT INTO Reponse (Intitule, BonneReponse) VALUES ('En suivant les événements réels à la lettre, sans déformation', FALSE);
+INSERT INTO Reponse (Intitule, BonneReponse) VALUES ('En représentant les citoyens comme des héros', FALSE);
+
+-- Question 2
+INSERT INTO Reponse (Intitule, BonneReponse) VALUES ('En présentant des technologies trop avancées sans conséquences', FALSE);
+INSERT INTO Reponse (Intitule, BonneReponse) VALUES ('En créant des situations paradoxales liées à des découvertes scientifiques', TRUE);
+INSERT INTO Reponse (Intitule, BonneReponse) VALUES ('En montrant un futur utopique sans problème social', FALSE);
+
+-- Question 3
+INSERT INTO Reponse (Intitule, BonneReponse) VALUES ('L\'absurdité des normes sociales et politiques', TRUE);
+INSERT INTO Reponse (Intitule, BonneReponse) VALUES ('Le respect aveugle des traditions', FALSE);
+INSERT INTO Reponse (Intitule, BonneReponse) VALUES ('Le besoin de maintenir l\'ordre social à tout prix', FALSE);
+
+-- Question 4
+INSERT INTO Reponse (Intitule, BonneReponse) VALUES ('En créant des gags physiques et des situations absurdes', TRUE);
+INSERT INTO Reponse (Intitule, BonneReponse) VALUES ('En utilisant des monologues intérieurs des personnages', FALSE);
+INSERT INTO Reponse (Intitule, BonneReponse) VALUES ('En se concentrant sur l’interaction verbale entre les personnages', FALSE);
+
+-- Question 5
+INSERT INTO Reponse (Intitule, BonneReponse) VALUES ('L\'intelligence artificielle est supérieure à l\'intelligence humaine', FALSE);
+INSERT INTO Reponse (Intitule, BonneReponse) VALUES ('L\'intelligence artificielle est moralement neutre et amorale', TRUE);
+INSERT INTO Reponse (Intitule, BonneReponse) VALUES ('L\'intelligence artificielle doit être régulée par des gouvernements', FALSE);
+
+-- Question 6
+INSERT INTO Reponse (Intitule, BonneReponse) VALUES ('En présentant un futur idéalisé sans dilemmes moraux', FALSE);
+INSERT INTO Reponse (Intitule, BonneReponse) VALUES ('En dépeignant des personnages désabusés et souvent égoïstes', TRUE);
+INSERT INTO Reponse (Intitule, BonneReponse) VALUES ('En explorant des univers utopiques avec des fins heureuses', FALSE);
+
+-- Question 7
+INSERT INTO Reponse (Intitule, BonneReponse) VALUES ('Parce qu’il critique la culture de l\'image et du marketing', TRUE);
+INSERT INTO Reponse (Intitule, BonneReponse) VALUES ('Parce qu’il glorifie la consommation sans réflexion', FALSE);
+INSERT INTO Reponse (Intitule, BonneReponse) VALUES ('Parce qu’il promeut une vie simple et modeste', FALSE);
+
+-- Question 8
+INSERT INTO Reponse (Intitule, BonneReponse) VALUES ('Ils sont des spectateurs passifs des événements sociaux', FALSE);
+INSERT INTO Reponse (Intitule, BonneReponse) VALUES ('Ils réagissent souvent de manière extrême et irréfléchie aux événements', TRUE);
+INSERT INTO Reponse (Intitule, BonneReponse) VALUES ('Ils apportent des solutions simples et directes aux problèmes sociaux', FALSE);
+
+-- Question 9
+INSERT INTO Reponse (Intitule, BonneReponse) VALUES ('En proposant une version réaliste des personnages et de leurs interactions', FALSE);
+INSERT INTO Reponse (Intitule, BonneReponse) VALUES ('En présentant des situations complètement irrationnelles et sans but', TRUE);
+INSERT INTO Reponse (Intitule, BonneReponse) VALUES ('En mettant en avant des valeurs morales strictes et codifiées', FALSE);
+
+-- Question 10
+INSERT INTO Reponse (Intitule, BonneReponse) VALUES ('Il sert à renforcer les enjeux dramatiques de la série', FALSE);
+INSERT INTO Reponse (Intitule, BonneReponse) VALUES ('Il sert à souligner la banalité des événements de la vie quotidienne', FALSE);
+INSERT INTO Reponse (Intitule, BonneReponse) VALUES ('Il crée des situations surprenantes pour apporter de l\'humour visuel', TRUE);
+
+
+
+
+
+
+INSERT INTO Question (Intitule, Multiple) VALUES ('Qui est le créateur des Simpson ?', FALSE);
+INSERT INTO Question (Intitule, Multiple) VALUES ('Dans quel dessin animé trouve-t-on un personnage nommé Aang ?', FALSE);
+INSERT INTO Question (Intitule, Multiple) VALUES ('Quel personnage est le meilleur ami de Tintin ?', TRUE);
+
+
+insert into Question (Intitule, Multiple) values ('Dans Les Aventures de Tintin, quel est le nom du scientifique belge que Tintin rencontre dans "Le Crabe aux pinces d'or" ?',true);
+insert into Question (Intitule, Multiple, id_Catégorie) values ('Comment le personnage d'Aang dans Avatar : Le dernier maître de l'air apprend-il à maîtriser tous les éléments ?', true, 1);
+insert into Question (Intitule, Multiple, id_Catégorie) values ('Quelles sont les influences culturelles qui ont inspiré l'univers d'Avatar : Le dernier maître de l'air ?', true, 1);
+insert into Question (Intitule, Multiple, id_Catégorie) values ('Quel est le rôle de la société "Thark" dans Barbary Coast ?', true, 1);
+insert into Question (Intitule, Multiple, id_Catégorie) values ('Quel est le lien entre l'Égypte antique et l'histoire des Mystérieuses Cités d'Or ?', true, 1);
+insert into Question (Intitule, Multiple, id_Catégorie) values ('Dans Les Aventures de Tintin, quel est le nom de la ville fictive en Afrique où Tintin se rend dans "L'Oreille cassée" ?', true, 1);
+insert into Question (Intitule, Multiple, id_Catégorie) values ('Comment les personnages de Les Cités d'Or interprètent-ils les mystères de la civilisation inca ?', true, 1);
+insert into Question (Intitule, Multiple, id_Catégorie) values ('Qui est le chef des rebelles dans Les Cités d'Or et quel est son objectif ?', true, 1);
+insert into Question (Intitule, Multiple, id_Catégorie) values ('Dans Ulysse 31, quel est le rôle de la planète "Chimère" et comment elle symbolise la quête de l'héroïsme ?', true, 1);
+insert into Question (Intitule, Multiple, id_Catégorie) values ('Quelles sont les influences mythologiques dans Les Aventures de Pénélope ?', true, 1);
+
+insert into Question (Intitule, Multiple, id_Catégorie) values ('', true, 2);
+insert into Question (Intitule, Multiple, id_Catégorie) values ('', true, 2);
+insert into Question (Intitule, Multiple, id_Catégorie) values ('', true, 2);
+insert into Question (Intitule, Multiple, id_Catégorie) values ('', true, 2);
+insert into Question (Intitule, Multiple, id_Catégorie) values ('', true, 2);
+insert into Question (Intitule, Multiple, id_Catégorie) values ('', true, 2);

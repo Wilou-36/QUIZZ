@@ -15,7 +15,13 @@ CREATE TABLE Quiz (
 CREATE TABLE Question (
     ID INT PRIMARY KEY AUTO_INCREMENT,
     Intitule TEXT NOT NULL,
-    Multiple BOOLEAN NOT NULL
+    Multiple BOOLEAN NOT NULL,
+    id_Quizz int,
+    id_Categorie int,
+    id_Reponse int,
+    foreign key(id_Quizz) references Quiz(ID),
+    foreign key(id_Categorie) references Categorie(ID),
+    foreign key(id_Reponse) references Reponse(ID)
 );
  
 -- Table Réponse
