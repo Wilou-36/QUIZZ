@@ -36,3 +36,50 @@ CREATE TABLE Categorie (
     ID INT PRIMARY KEY AUTO_INCREMENT,
     Libelle VARCHAR(255) NOT NULL
 );
+
+
+--Partie du prof
+CREATE TABLE quizz(
+   id INT AUTO_INCREMENT,
+   nom VARCHAR(64) NOT NULL,
+   PRIMARY KEY(id)
+);
+
+CREATE TABLE question(
+   id INT AUTO_INCREMENT,
+   intitule VARCHAR(250) NOT NULL,
+   difficulte INT NOT NULL DEFAULT 0,
+   multiple TINYINT NOT NULL DEFAULT 0,
+   PRIMARY KEY(id)
+);
+
+CREATE TABLE reponse(
+   id INT AUTO_INCREMENT,
+   intitule VARCHAR(100) NOT NULL,
+   bonnereponse TINYINT NOT NULL DEFAULT 0,
+   question_id INT NOT NULL,
+   PRIMARY KEY(id),
+   FOREIGN KEY(question_id) REFERENCES question(id)
+);
+
+CREATE TABLE categorie(
+   id INT AUTO_INCREMENT,
+   libelle VARCHAR(64) NOT NULL,
+   PRIMARY KEY(id)
+);
+
+CREATE TABLE question_categorie(
+   question_id INT NOT NULL,
+   categorie_id INT NOT NULL,
+   PRIMARY KEY(question_id, categorie_id),
+   FOREIGN KEY(question_id) REFERENCES question(id),
+   FOREIGN KEY(categorie_id) REFERENCES categorie(id)
+);
+
+CREATE TABLE quizz_question(
+   quizz_id INT NOT NULL,
+   question_id INT NOT NULL,
+   PRIMARY KEY(quizz_id, question_id),
+   FOREIGN KEY(quizz_id) REFERENCES quizz(id),
+   FOREIGN KEY(question_id) REFERENCES question(id)
+);
