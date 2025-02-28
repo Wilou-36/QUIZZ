@@ -38,7 +38,7 @@ CREATE TABLE Categorie (
 );
 
 
---Partie du prof
+--Partie du prof creation de base de donnée
 CREATE TABLE quizz(
    id INT AUTO_INCREMENT,
    nom VARCHAR(64) NOT NULL,
