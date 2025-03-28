@@ -1,0 +1,28 @@
+-- Insertion des catégories
+INSERT INTO categorie (libelle) VALUES ('Aventure'), ('Comédie'), ('Fantastique'), ('Science-fiction'), ('Héroïque / Super-héros'), ('Drame / Émotionnel'), ('Éducatif');
+
+-- Insertion des quiz
+INSERT INTO quizz (nom) VALUES ('Aventure'), ('Comédie'), ('Fantastique'), ('Science-fiction'), ('Héroïque / Super-héros'), ('Drame / Émotionnel'), ('Éducatif');
+
+-- Insertion des questions avec leur difficulté et type (multiple ou non)
+INSERT INTO question (intitule, difficulte) VALUES
+('Dans les totues ninja, quelle est le nom de la tortu orange ?', 2),
+('Qui est le chef de la justice ligue?', 3);
+ 
+
+-- Insertion des réponses
+INSERT INTO reponse (intitule, bonnereponse, question_id) VALUES
+('Michelangelo', 1, 1),
+('Batman', 2, 1);
+('Iron man', 3, 1);
+
+-- Lien entre questions et catégories
+INSERT INTO question_categorie (question_id, categorie_id) VALUES
+(1, 1), (2, 1), (3, 1);
+
+-- Lien entre quiz et questions
+INSERT INTO quizz_question (quizz_id, question_id) VALUES
+(1, 1), (1, 2), (1, 3);
+
+INSERT INTO categorie (libelle) VALUES ('Aventure'), ('Classique'), ('Fantastique'), ('Éducatif');
+
